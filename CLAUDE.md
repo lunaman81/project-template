@@ -114,7 +114,7 @@ Fix all P1s. Log P2s. Defer P3s to v2. Re-audit after P1 fixes before pushing.
 
 **7. Auto-Log** — append without being asked:
 
-`changelog.md`:
+`session-log.md`:
 ```
 ## [Date] — [Task]
 Built / Changed / Deferred / Next / Flags
