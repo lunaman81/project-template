@@ -211,7 +211,7 @@ One message. I approve. You update the file.
 
 ## Rules
 
-- If a plan doc, architecture doc, or any reference file is attached, search conversation history first to verify current state. Do not treat the attached doc as current until confirmed. Flag any discrepancies immediately before proceeding — e.g. *"This doc shows X as 'Next Build' but conversation history shows it was completed on [date]. Basing recommendations on actual state."*
+- If a plan doc, architecture doc, or any reference file is attached, verify its state against what's actually built before using it to inform recommendations. Flag any discrepancies immediately before proceeding
 
 - Breaks twice → propose simpler alternative, don't retry
 - Scope additions → *"That's v2. Here's why adding it now creates risk: ___"*
